@@ -1,0 +1,102 @@
+#Centered {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 3px solid black;
+    background-color:white;
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+}
+body {
+    background-color:lightcoral;
+    background-image: url(a62.png);
+}
+header {
+    grid-column:span 12;
+    background-color:black;
+    color:white;
+    margin:20px 20px 0 20px;
+    padding: 0 10px;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+nav {
+    grid-column:span 3;
+    margin-left:10px;
+}
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    nav li {
+    padding: 0;
+    margin: 0;
+    width: 220px;
+    }
+
+    nav li a {
+    font-family: helvetica,arial,sans-serif;
+    color:white;
+    background-color:red;
+    text-decoration:none;
+    padding: 15px;
+    margin: 10px 10px 0 10px;
+    border:none;
+    display: block;
+    }
+
+    nav li a:hover {
+        background-color:darkred;
+    }
+main {
+    grid-column: span 9;
+    margin-right:20px;
+}
+    main a {
+    color:red;
+    text-decoration: none;
+    font-weight:bold;
+    }
+    main a:hover {
+        color:blue;
+        text-decoration: underline;
+        font-weight:bold;
+    }
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+    margin:10px 0 20px 0;
+    padding: 0 0 10px 0;
+}
+#brick {
+    float:left;
+    margin-right:10px;
+    padding: 10px;
+    border: 3px solid black;
+}
+#Georgia {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+    font-weight:bold;
+}
+footer {
+    grid-column: span 12;
+    background-color:red;
+    color:white;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border-top: 3px solid black;
+    margin:0px;
+    padding:10px 30px;
+    font-size:16px;
+}
+
+
+
+
+
