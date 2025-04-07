@@ -47,8 +47,8 @@ nav li a:hover {
 .triangle{
   width:1200px;
   height:40px;
-  background-color:goldenrod;
-  clip-path: polygon(54% 80%, 58% 0, 50% 0)
+  background-color: goldenrod;
+  clip-path: polygon(54% 80%, 58% 0, 50% 0);
 }
 /* (x1 y1) */
 #p1s1 {
