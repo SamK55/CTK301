@@ -6,6 +6,12 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.oooh-baby-regular {
+  font-family: "Oooh Baby", cursive;
+  font-weight: 500;
+  font-style: bold;
+}
+
 #wrapper {
   margin: 24px auto;
   width: 1200px;
